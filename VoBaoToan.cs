@@ -157,7 +157,6 @@ namespace VoBaoToan
             } while (idx < 0 || idx > todoList.Count);
             todoList.RemoveAt(idx);
         }
-
         public static void ChangeStatus(ref List<Todo> todoList)
         {
             int idx;
